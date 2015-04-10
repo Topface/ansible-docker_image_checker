@@ -1,0 +1,4 @@
+- name: check image existence
+  uri:
+    url: "https://{{ docker_registry }}/v1/repositories/{{ docker_image }}/tags/{{ docker_tag }}"
+    status_code: 200
