@@ -31,4 +31,4 @@ Pass it when you run your playbook.
 
 ## License
 
-MIT
+[MIT](LICENSE)
